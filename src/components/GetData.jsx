@@ -29,19 +29,7 @@ const GetData = () => {
 
   return (
     <div>
-      <input
-        type="text"
-        value={inputValue}
-        onChange={handleInputChange}
-        placeholder="Enter something..."
-      />
-
-
-
-
-
-
-<form>   
+      <form>   
     <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
     <div class="relative">
         <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -54,16 +42,7 @@ const GetData = () => {
     </div>
 </form>
 
-
-
-
-
-
-
-
-
-
-      <h2>Posts:</h2>
+      {/* <h2>Posts:</h2> */}
       {/* write the code to fetch data from api */}
 
       <div>
@@ -73,13 +52,13 @@ const GetData = () => {
               <div key={post.id}>
                 <div className="drop-shadow-lg   w-80 mb-5">
                   <div>
-                    <img className=" h-80" src={post.image} alt="title" />
+                    {/* <img className=" h-80" src={post.image} alt="title" /> */}
 
-                    {/* <img
+                    <img
           className=" h-80"
             src="https://static.toiimg.com/thumb/52554168.cms?width=1200&height=900"
             alt="title"
-          /> */}
+          />
                   </div>
                   <div className="">
                     <h1 className=" py-2 text-center text-3xl ">
