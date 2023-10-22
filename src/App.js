@@ -6,7 +6,7 @@ import Product from "./components/Product";
 const App = () => {
   return (
     <div>
-      
+     
       <Routes>
         <Route path="/" exact element={<GetData/>} />
         <Route path="/product/:id" element={<Product />} />
