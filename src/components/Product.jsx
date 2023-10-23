@@ -30,7 +30,7 @@ const Product = (props) => {
 
   return (
     <div className="w-full p-4 text-center bg-white border border-gray-100 rounded-lg shadow sm:p-8 ">
-      <h5 className="mb-2 text-3xl font-bold   text-red-900">Recipe Search:</h5>
+      <h5 className="mb-2 text-3xl font-bold   text-red-900">Recipe Search</h5>
      
       <div className="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
         <div className="flex flex-row flex-wrap justify-center">

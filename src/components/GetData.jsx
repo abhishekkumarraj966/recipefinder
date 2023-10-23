@@ -30,10 +30,8 @@ const GetData = () => {
   return (
     <div>
       <div className="w-full p-4 text-center bg-white border border-gray-100 rounded-lg shadow sm:p-8  space-y-5">
-        <h5 className="mb-2 text-3xl font-bold   text-red-900">Shop By Gender</h5>
-        <p className="mb-5 text-base sm:text-lg  text-gray-900">
-          first class jewellery for fast-day for Min Kide - women
-        </p>
+        <h5 className="mb-2 text-3xl font-bold   text-red-900">Recipe Search</h5>
+       
 
         <form>
           <label
