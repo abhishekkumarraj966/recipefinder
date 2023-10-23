@@ -30,9 +30,7 @@ const GetData = () => {
   return (
     <div>
       <div className="w-full p-4 text-center bg-white border border-gray-100 rounded-lg shadow sm:p-8  space-y-5">
-        <h5 className="mb-2 text-3xl font-bold   text-red-900">Recipe Search</h5>
-       
-
+        <h5 className="mb-2 text-3xl font-bold   text-red-900">Recipe Search</h5>    
         <form>
           <label
             for="default-search"
