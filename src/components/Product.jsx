@@ -16,7 +16,7 @@ const Product = (props) => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `https://api.spoonacular.com/recipes/${id}/information?includeNutrition=false&apiKey=4c712231b4504103baf2cf7743c57eec`
+          `https://api.spoonacular.com/recipes/${id}/information?includeNutrition=false&apiKey=d652cb9b0e924955bb7b17f8c469c44f `
         );
         setHtmlContent(response.data.summary);
         console.log(response.data);
